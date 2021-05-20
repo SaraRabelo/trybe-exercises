@@ -1,0 +1,16 @@
+let num1 = 30;
+let num2 = 10;
+let num3 = 13;
+
+let resto1 = num1 %2;
+let resto2 = num2 % 2;
+let resto3 = num3 % 2;
+let resultado = false;
+
+
+if ((resto1 != 0) || (resto2 != 0) || (resto3 !=0)) {
+    resultado = true;
+        
+}
+
+console.log(resultado);
