@@ -6,7 +6,6 @@ const newEmployees = (callback) => {
     }
     return employees;
   };
-
 const employeGenerator = (fullName) => {
     const email = fullName.toLowerCase().split(' ').join('_');
     return { fullName, email: `${email}@trybe.com`};
