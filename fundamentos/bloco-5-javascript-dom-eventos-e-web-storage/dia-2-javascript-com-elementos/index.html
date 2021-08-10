@@ -63,15 +63,22 @@
       let texto =document.createElement('h1');
       texto.innerHTML = "Exercício 5.2 - JavaScript DOM";
       textopri.appendChild(texto);
+
       // 2. Questão
       let addTagMain = document.createElement('main');
       addTagMain.className = 'main-content';
       document.body.appendChild(addTagMain);
+
       // 3. Questão
-      let addTagsection = document.createElement(section);
-      addTagsection.className = 'center-content';
-      document.main.appendChild(addTagsection);
-      
+      let addTagSection = document.createElement('section');
+      addTagSection.className = 'center-content';
+      addTagMain.appendChild(addTagSection);
+
+      // 4. Questão
+      let addTagP = document.createElement('p');
+      addTagP.innerHTML = 'Resolvendo a 4a Questão do Exercício Proposto!';
+      addTagSection.appendChild(addTagP);
+
     </script>
   </body>
 </html>
