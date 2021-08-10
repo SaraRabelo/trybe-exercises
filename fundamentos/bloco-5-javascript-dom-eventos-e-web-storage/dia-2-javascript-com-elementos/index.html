@@ -56,10 +56,13 @@
     </style>
   </head>
   <body>
-    <h1>Exercício 5.2 - JavaScript DOM</h1>  
-    <main>classe = main-content</main>
+    
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      let textopri = document.querySelector('body');
+      let texto =document.createElement('h1');
+      texto.innerHTML = "Exercício 5.2 - JavaScript DOM";
+      textopri.appendChild(texto);
+
     </script>
   </body>
 </html>
