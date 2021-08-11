@@ -96,9 +96,16 @@
       addTagSectionLeft.appendChild(elementImg);
 
       // 8. Questão
-      let listOl = document.createElement('ul');
-      addTagSectionRight.appendChild(listOl);
+      let listul = document.createElement('ul');
+      addTagSectionRight.appendChild(listul);
+      let numeros = ['Um','Dois','Três','Quatro','Cinco','Seis','Sete','Oito','Nove','Dez']
+      for (let cont in numeros){
+          let addTagLi = document.createElement('li')
+          addTagLi.innerHTML= numeros[cont];
+          listul.appendChild(addTagLi);
+      }    
 
+      
     </script>
   </body>
 </html>
